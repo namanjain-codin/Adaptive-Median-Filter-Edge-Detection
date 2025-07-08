@@ -88,7 +88,7 @@ def adaptive_median_filter(image, initial_window=3, max_window=7):
 
 def main():
     # Step 1: Load the image (replace with your image path)
-    image_path = "/content/drive/MyDrive/Colab Notebooks/DIP Project 2/namanjain.jpg"  # Replace with your image path
+    image_path = "https://github.com/namanjain-codin/Adaptive-Median-Filter-Edge-Detection/blob/main/City_Skyline.avif"  # Replace with your image path
     original_image = cv2.imread(image_path)
 
     if original_image is None:
