@@ -16,3 +16,30 @@ Detect edges using the Canny algorithm.
 Segment the image using Otsu’s automatic thresholding.
 
 Visualize and save all intermediate results.
+
+## Technologies Used
+Python
+
+OpenCV
+
+NumPy
+
+Matplotlib
+
+Google Colab
+
+## How It Works
+1️⃣ Load Image: Import an image from Google Drive.
+2️⃣ Convert to Grayscale: Simplify the image for processing.
+3️⃣ Add Noise: Simulate salt & pepper noise (30% probability).
+4️⃣ Denoise: Apply an adaptive median filter to remove noise.
+5️⃣ Edge Detection: Use Canny Edge Detection to find edges.
+6️⃣ Segmentation: Perform Otsu’s Thresholding for binarization.
+7️⃣ Save & Visualize: Save processed images and display results using Matplotlib.
+
+## Key Learnings
+✅ Implemented a custom adaptive median filter.
+✅ Understood the impact of salt & pepper noise on images.
+✅ Practiced edge detection using the Canny algorithm.
+✅ Learned image segmentation using Otsu’s method.
+✅ Visualized every step for better understanding.
